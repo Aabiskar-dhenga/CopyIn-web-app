@@ -1,0 +1,61 @@
+.sidebar{
+    background-color: var(--main_white);
+    padding: 0 1rem;
+    flex: 2.5;
+    padding-top: 1rem;
+}
+.sidebar_header{
+    display: flex;
+    padding: 0 1rem;
+    align-items: center;
+    gap: 0.51rem;
+    /* justify-content: ; */
+    
+    margin-bottom: 2rem;
+    /* justify-content: c; */
+}
+
+.app_logo_text{
+    font-size: 2rem;
+    color:#a11bc9;
+    text-transform: uppercase;
+
+}
+.sidebar_header img{
+    width: 60px;
+    height: 60px;
+}
+.collection_review_text{
+    color: var(--secondary_text_color);
+    padding-left: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin: 1rem 0 ;
+}
+.sidebar_list_item{
+    cursor: pointer;
+    display:flex;
+    align-items: center;
+    gap:10px;
+    border-radius: 2px  ;
+    height: 65px;
+    padding: 0 1rem;
+}
+.active_item{
+
+    background: #a01bc971;
+}
+.active_item svg{
+    color: #a11bc9 !important;
+}
+.active_item p{
+    color: #a11bc9;
+}
+.sidebar_list_item p{
+    font-weight: bold;
+}
+.sidebar_list_item svg{
+    color: gray;
+    font-size: 18px;
+}

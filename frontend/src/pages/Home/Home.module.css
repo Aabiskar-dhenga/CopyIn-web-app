@@ -1,0 +1,11 @@
+.home{
+    display: flex;
+    height: 100%;
+}
+.home_content{
+    /* background-color: transparent; */
+    /* background-color: var(--light_white); */
+    background: var(--light_white);
+
+    flex: 9.5;
+}

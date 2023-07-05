@@ -1,0 +1,97 @@
+.navParent{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    background-color: var(--main_white);
+    height: 100px;
+    align-items: center;
+}
+
+.topNavBarLeftSide{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    
+    gap: 2rem;
+    background-color: var(--light_white);
+
+    /* padding: 0 2rem; */
+    padding-left: 2px;
+    padding-right: 2rem;
+}
+.linksBox{
+    padding: 0 1rem;
+    height: 100%;
+}
+.wall_name_icon_box{
+    padding: 5px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background:gray;
+    display: flex;
+    align-items: center;;
+    justify-content: center;
+
+}
+.wallInnerBox{
+    display: flex;
+    align-items: center;
+    width:200px;
+    /* background-color: red; */
+
+    gap: 7px;
+}
+.wallInnerBox svg{
+    font-size: 20px;
+    color: gray;
+   
+}
+
+.wall_name_icon_box svg{
+    width: 30px;
+    color:white;
+}
+.linksBox input{
+    background-color: transparent;
+    height: 100%;
+    border: none;
+    font-size: 12px;
+    letter-spacing: 1px;
+    outline: none;
+    width: 200px;
+}
+.topNavBarRightSide{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.wallNameBox{
+    background-color: var(--main_white);
+    height: 98%;
+    width: 260px;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+
+}
+
+.pencil_icon{
+    color: #9a23fe;
+    cursor: pointer;
+}
+.userInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.userEmail{
+    font-size: 11px;
+}
+.profileImg{
+    width: 50px;
+    object-fit: cover;
+    height: 50px;
+    border-radius: 50%;
+}
