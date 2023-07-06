@@ -11,12 +11,13 @@ import {
   TableCaption,
   TableContainer,
 } from "@chakra-ui/react";
+import { TfiWorld } from "react-icons/Tfi";
+import { FaRegHandPaper } from "react-icons/Fa";
 
 const Usercollection = () => {
   return (
     <TableContainer>
       <Table variant="simple">
-        <TableCaption>Imperial to metric conversion factors</TableCaption>
         <Thead>
           <Tr>
             <Th>Contact</Th>
@@ -27,9 +28,10 @@ const Usercollection = () => {
         </Thead>
         <Tbody>
           <Tr>
-            <Td>
-              <div>
-                <img className={styles.}
+            <Td className={styles.userNameWrapper}>
+              <div className={styles.profileNameWrapper}>
+                <img
+                  className={styles.profileName}
                   src="https://images.pexels.com/photos/3866555/pexels-photo-3866555.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                   alt="imgofhuman"
                 />
@@ -39,21 +41,37 @@ const Usercollection = () => {
                 <p>@Abiskrdhenga29</p>
               </div>
             </Td>
-            <Td>millimetres (mm)</Td>
-            <Td isNumeric>25.4</Td>
-            <Td>false</Td>
+            <Td>
+              <TfiWorld />
+            </Td>
+            <Td isNumeric>23/09/2023</Td>
+            <Td display={"flex"} justifyContent={"end"}>
+              <div className={styles.analyticsStatusActive}>Active</div>
+            </Td>
           </Tr>
           <Tr>
-            <Td>feet</Td>
-            <Td>centimetres (cm)</Td>
-            <Td isNumeric>30.48</Td>
-            <Td>false</Td>
-          </Tr>
-          <Tr>
-            <Td>yards</Td>
-            <Td>metres (m)</Td>
-            <Td isNumeric>0.91444</Td>
-            <Td>false</Td>
+            <Td className={styles.userNameWrapper}>
+              <div className={styles.profileNameWrapper}>
+                <img
+                  className={styles.profileName}
+                  src="https://images.pexels.com/photos/3866555/pexels-photo-3866555.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  alt="imgofhuman"
+                />
+              </div>
+              <div>
+                <p>Ronaldo</p>
+                <p>@Ronaldo47</p>
+              </div>
+            </Td>
+            <Td>
+              <FaRegHandPaper />
+            </Td>
+            <Td isNumeric>23/09/2023</Td>
+            <Td display={"flex"} justifyContent={"end"}>
+              <div className={styles.analyticsStatusInActive}>
+                <p>Inactive</p>
+              </div>
+            </Td>
           </Tr>
         </Tbody>
       </Table>

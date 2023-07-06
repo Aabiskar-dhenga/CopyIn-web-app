@@ -1,0 +1,10 @@
+.editreviewParent{
+    background-color: var(--main_white);
+    display: flex;
+    flex-direction: column;
+}
+
+.uploadDiv{
+
+    display: flex;
+}
