@@ -29,11 +29,11 @@ const Sidebar = () => {
             <LuLayoutDashboard />
             <p>Dashboard</p>
           </div>
-          <k to={"/wall"} className={styles.sidebar_list_item}>
+          <Link to={"/wall"} className={styles.sidebar_list_item}>
             {/*  */}
             <PiWallDuotone />
             <p>My Walls</p>
-          </k>
+          </Link>
           <div className={styles.sidebar_list_item}>
             {/*  */}
             <LiaTelegram />
