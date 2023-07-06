@@ -1,7 +1,11 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 :root {
@@ -13,7 +17,7 @@
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   --main_white:#ffffff;
-  --light_white:#E4E4E4;
+  --light_white:#F0F2F5;
   --secondary_text_color:#a4a4a4;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

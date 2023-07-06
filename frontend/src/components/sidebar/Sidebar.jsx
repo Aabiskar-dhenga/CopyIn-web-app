@@ -5,6 +5,7 @@ import { LiaTelegram } from "react-icons/lia";
 import { FaRegHandPaper } from "react-icons/fa";
 import { AiOutlineGlobal } from "react-icons/ai";
 import { FaWpforms } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 // FaRegHand
 // AiOutlineGlobal
@@ -28,11 +29,11 @@ const Sidebar = () => {
             <LuLayoutDashboard />
             <p>Dashboard</p>
           </div>
-          <div className={styles.sidebar_list_item}>
+          <k to={"/wall"} className={styles.sidebar_list_item}>
             {/*  */}
             <PiWallDuotone />
             <p>My Walls</p>
-          </div>
+          </k>
           <div className={styles.sidebar_list_item}>
             {/*  */}
             <LiaTelegram />
