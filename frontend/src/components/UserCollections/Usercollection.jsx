@@ -29,7 +29,7 @@ const Usercollection = () => {
           <Tr>
             <Td>
               <div>
-                <img className={styles.}
+                <img
                   src="https://images.pexels.com/photos/3866555/pexels-photo-3866555.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                   alt="imgofhuman"
                 />

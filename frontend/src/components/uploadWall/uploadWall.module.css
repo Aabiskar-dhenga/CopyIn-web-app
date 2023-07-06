@@ -1,0 +1,19 @@
+.uploadWall_container{
+    background: rgb(203, 163, 163);
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+
+}
+.uploadWall_content{
+    width: 70vw;
+    min-height: 100vw;
+    background-color: rgb(139, 139, 196);
+    padding: 2rem;
+}
+.wall_heading{
+    font-size: 30px;
+}
