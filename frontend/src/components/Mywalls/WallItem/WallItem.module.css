@@ -1,0 +1,50 @@
+
+.wall_avatar{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.wall_item{
+    background: var(--main_white);
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem    1.5rem;
+    align-items: center;
+}
+.wall_left_items{
+    align-items: center;
+    display: flex   ;
+    gap: 2rem;
+}
+.wall_info_box{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.wall_info{
+    display: flex;
+    flex-direction: column;
+}
+.wall_item_action_box{
+    display: flex;
+    gap: 10px;
+}
+.wall_item_action_box svg{
+    /* width: 26px; */
+    font-size: 1.5rem;
+    color: gray;
+}
+.wall_basic_info_text{
+    color: gray;
+    font-size: 13px;
+}
+.wall_item input{
+    width: 35px;
+}
+.selectBox{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(168, 164, 164, 0.658);
+}
