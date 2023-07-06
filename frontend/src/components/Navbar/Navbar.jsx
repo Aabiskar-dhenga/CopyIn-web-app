@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Navbar.module.css";
-import { BsPencil } from "react-icons/Bs";
+// import { BsPencil } from "react-icons/Bs";
 import { RiProfileLine } from "react-icons/ri";
 import { RiArrowDropDownLine } from "react-icons/ri";
 
@@ -21,7 +21,7 @@ const Navbar = () => {
         <div className={styles.linksBox}>
           <input type="text" placeholder="domain.com/choosenwallname..." />
         </div>
-        <BsPencil className={styles.pencil_icon} />
+        {/* <BsPencil className={styles.pencil_icon} /> */}
       </div>
       <div className={styles.topNavBarRightSide}>
         <img
