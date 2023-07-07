@@ -11,8 +11,8 @@ import {
   TableCaption,
   TableContainer,
 } from "@chakra-ui/react";
-import { TfiWorld } from "react-icons/Tfi";
-import { FaRegHandPaper } from "react-icons/Fa";
+import { FiGlobe } from "react-icons/fi";
+import { IoHandLeftOutline } from "react-icons/io5";
 
 const Usercollection = () => {
   return (
@@ -42,7 +42,8 @@ const Usercollection = () => {
               </div>
             </Td>
             <Td>
-              <TfiWorld />
+              {" "}
+              <FiGlobe />{" "}
             </Td>
             <Td isNumeric>23/09/2023</Td>
             <Td display={"flex"} justifyContent={"end"}>
@@ -64,7 +65,7 @@ const Usercollection = () => {
               </div>
             </Td>
             <Td>
-              <FaRegHandPaper />
+              <IoHandLeftOutline />{" "}
             </Td>
             <Td isNumeric>23/09/2023</Td>
             <Td display={"flex"} justifyContent={"end"}>
