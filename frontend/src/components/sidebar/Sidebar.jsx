@@ -2,9 +2,10 @@ import styles from "./Sidebar.module.css";
 import { LuLayoutDashboard } from "react-icons/lu";
 import { PiWallDuotone } from "react-icons/pi";
 import { LiaTelegram } from "react-icons/lia";
-import { FaRegHandPaper } from "react-icons/fa";
+import { FaRegHandPaper, FaWpforms } from "react-icons/fa";
 import { AiOutlineGlobal } from "react-icons/ai";
-import { FaWpforms } from "react-icons/fa";
+// import { FaWpforms } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 // FaRegHand
 // AiOutlineGlobal
@@ -23,16 +24,19 @@ const Sidebar = () => {
       </div>
       <div className={styles.sidebar_list}>
         <div className={styles.first_sidebar}>
-          <div className={`${styles.sidebar_list_item} ${styles.active_item}`}>
+          <Link
+            to="/"
+            className={`${styles.sidebar_list_item} ${styles.active_item}`}
+          >
             {/*  */}
             <LuLayoutDashboard />
             <p>Dashboard</p>
-          </div>
-          <div className={styles.sidebar_list_item}>
+          </Link>
+          <Link to={"/wall"} className={styles.sidebar_list_item}>
             {/*  */}
             <PiWallDuotone />
             <p>My Walls</p>
-          </div>
+          </Link>
           <div className={styles.sidebar_list_item}>
             {/*  */}
             <LiaTelegram />

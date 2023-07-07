@@ -5,7 +5,7 @@ import Usercollection from "../UserCollections/Usercollection";
 const Dashboard = () => {
   return (
     <div className={styles.DashboardParent}>
-      <h1>Dashboard</h1>
+      <h1 className={styles.navH1text}>Dashboard</h1>
       <div className={styles.analyticsWrapper}>
         <div className={styles.analyticsBox}>
           <h3>My Walls</h3>

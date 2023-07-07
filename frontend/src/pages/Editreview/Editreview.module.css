@@ -1,0 +1,21 @@
+.editreviewParent{
+    background-color: var(--main_white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.uploadDiv{
+
+    display: flex;
+}
+.namebioDiv{
+    display: flex;
+    gap: 8rem;
+}
+
+.editreviewParent h1{
+    font-size: 42px;
+    
+}

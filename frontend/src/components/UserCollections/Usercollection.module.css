@@ -1,0 +1,44 @@
+.profileName{
+    height: 100%;
+    width: 100%;
+
+    border-radius: 50%;
+    
+}
+
+.userNameWrapper{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.profileNameWrapper{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+
+}
+
+.analyticsStatusInActive,.analyticsStatusActive{
+    font-weight: bold;
+    background-color: #FF0000;
+    border-radius: 22px;
+    color: white;
+    width: 122px;
+    height:37px;
+display: flex;
+justify-content: center;
+font-weight: 600;
+letter-spacing: 1px;
+align-items: center;
+
+}
+
+
+.analyticsStatusActive{
+ 
+    background-color: #48D285;
+  
+}
