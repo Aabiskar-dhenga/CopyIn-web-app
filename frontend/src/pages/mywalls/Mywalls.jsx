@@ -4,6 +4,7 @@ import styles from "./Mywalls.module.css";
 import Navbar from "../../components/Navbar/Navbar";
 import { AiOutlineDelete } from "react-icons/ai";
 import { IoIosAddCircleOutline } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 const Mywalls = () => {
   return (
@@ -15,10 +16,13 @@ const Mywalls = () => {
           <div className={styles.wall_content_header}>
             <h1>My walls</h1>
             <div className={styles.wall_content_header_action_box}>
-              <button className={styles.new_button}>
-                <IoIosAddCircleOutline />
-                <p>New Wall </p>
-              </button>
+              <Link to={"/uploadwall"}>
+                <button className={styles.new_button}>
+                  <IoIosAddCircleOutline />
+                  <p>New Wall </p>
+                </button>
+              </Link>
+
               <button>
                 <AiOutlineDelete />
                 <p>Delete </p>
