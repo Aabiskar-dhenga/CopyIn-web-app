@@ -1,12 +1,13 @@
 import React from "react";
 import styles from "./Editreview.module.css";
+import { CgProfile } from "react-icons/cg";
 const Review = () => {
   return (
     <div className={styles.editreviewParent}>
       <h1>Editing Review Review name</h1>
       <div className={styles.uploadDiv}>
         <div className={styles.uploadWrapper}>
-          {/* icon??? */}
+          <CgProfile />
           <div>
             <input type="text" placeholder="upload avatar" />
             {/* icon */}
